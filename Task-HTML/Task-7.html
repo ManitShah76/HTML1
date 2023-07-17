@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+        div[id*='box']{
+            height: 99vh;
+            width: 98vw;
+            border: 1px solid black;
+        }
+        #box1{
+            background-image: url(../Task/Images/Restaurant.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        #nav{
+            padding-left: 60px;
+        }
+        #box2{
+            color: White;
+            background-image: url(../Task/Images/Menu.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #menu{
+            margin-left: 100px;
+        }
+        #box3{
+            font-size: 35px;
+            background-color: coral;
+        }
+        input[type='Submit']{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 20px;
+            background-color: cornflowerblue;
+            font-size: 20px;
+        }
+        input[placeholder]
+        {
+            font-size: 20px;
+        }
+        #box4{
+            background-color: rgba(255, 228, 196, 0.186);
+        }
+        #box5{
+            height: 8vh;
+            background-color: khaki;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <a href="#box1">Home</a>
+        <a id="nav" href="#box2">Menu</a>
+        <a id="nav" href="#box3">Registration</a>
+        <a id="nav" href="#box4">Contact</a>
+        <a id="nav" href="#box5">About</a>
+    </div>
+    <div id="box2">
+        <h1 id="menu">Menu</h1>
+        <h2>Salad</h2>
+    <ul>
+        <li>Green Salad .................................55</li>
+        <li>Tamoto Salad ..............................50</li>
+        <li>Fry Papad ....................................22</li>
+        <li>Roasted Papad .............................20</li>
+        <li>Masala Papad ..............................35</li>
+    </ul>
+    <h2>Starter</h2>
+    <ul>
+        <li>Paneer Chilli ...............................55</li>
+        <li>Harabhara kabab........................170</li>
+        <li>Dry Manchurian.........................160</li>
+        <li>Grevy Manchurian.....................150</li>
+        <li>Hakka Noodles..........................155</li>
+        <li>Veg. Crispy................................170</li>
+    </ul>
+    <h2>Panjabi</h2>
+    <ul>
+        <li>Chapati Butter Roti.....................20</li>
+        <li>Tandoori Butter Roti...................30</li>
+        <li>Paneer Butter Masala................150</li>
+        <li>Paneer Rajawadi.......................150</li>
+        <li>Paneer Handi............................160</li>
+        <li>Cheese Butter Masala...............170</li>
+        <li>Cheese Angara..........................180</li>
+        <li>Jira Rise....................................100</li>
+        <li>Dal Fry......................................110</li>
+        <li>Dal Tadka..................................120</li>
+    </ul>
+    </div>
+    <div id="box3">
+    <center><h1>Registration Form</h1></center>
+    <center>
+        <form action="">
+            <label for="FName">First Name:</label>
+            <input type="text" name="FName" id="FName" placeholder="Enter Your First Name" required> <br><br>
+            <label for="LName">Last Name:</label>
+            <input type="text" name="LName" id="LName" placeholder="Enter Your Last Name" required> <br><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Enter Your Email ID" required> <br><br>
+            <label for="MobNo">Mobile Number:</label>
+            <input type="number" name="MobNo" id="MobNo" placeholder="Enter Your MobileNumber" required> <br><br>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter Your Password" required> <br><br>
+            <input type="submit" value="Sumbit">
+        </form>
+    </center>
+    </div>
+    <div id="box4">
+        <img src="../Task/Images/Contact.jpg" width="100%" height="73%" alt="" >
+        <center><h1>Contact us</h1>
+        <p>Manit Shah</p>
+        <p>Contact-9723000386</p>
+        <p>Email-manitshah07062003@gmail.com</p></center>
+    </div>
+    <div id="box5">
+       <center><p>@Copyright Manit Shah 2023</p></center>
+    </div>
+    <!-- <center><h1>Task-7</h1></center>
+    <table border="1" width="100%">
+        <thead style="background-color: coral;">
+            <th width="20%"><a href="../Images/Logo.webp" target="My_Display" height="400px"><img src="../Images/Logo.webp" alt="" height="100px" width="70%"></a></th>
+            <th width="20%"><a href="../Hotel/Images/Restaurant.jpg" target="My_Display" width="1500" height="470">Home</a></th>
+            <th width="20%"><a href="../Hotel/Menu.html" target="My_Display">Menu</a></th>
+            <th width="20%"><a href="../Hotel/Registration.html" target="My_Display1">Ragistration</a></th>
+            <th width="20%"><a href="../Hotel/About.html" target="My_Display2">About</a></th> 
+        </thead>
+        <tbody>
+            
+            <tr height="400px">
+                <td width="100%" colspan="5" style="background-color: cornflowerblue;"><iframe src="" name="My_Display" width="1500" height="500" frameborder="0"></iframe></td>
+            </tr>
+            <tr height="400px">
+                <td width="100%" colspan="5" style="background-color: cornflowerblue;"><iframe src="" name="My_Display1" width="1500" height="500" frameborder="0"></iframe></td>
+            </tr>
+            <tr height="400px">
+                <td width="100%" colspan="5" style="background-color: cornflowerblue;"><iframe src="" name="My_Display2" width="1500" height="500" frameborder="0"></iframe></td>
+            </tr>
+            <tr>
+                <td width="100%" height="50px" colspan="5" style="text-align: center; background-color: coral;">@Copyright Manit Shah 2023</td>
+            </tr>
+        </tbody>
+    </table> -->
+</body>
+</html>
